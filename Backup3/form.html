@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Forms in HTMl</h3>
+    <form action="https://localhost:4000" method="">
+      <label for="fName">First Name</label>
+      <input
+        type="text"
+        placeholder="Enter First Name"
+        id="fName"
+        name="firstName"
+        required
+        minlength="3"
+        maxlength="20"
+        autocomplete="off"
+      />
+
+      <br /><br />
+      <fieldset>
+        <legend style="text-align: center">Address</legend>
+        <label for="streetName">street name</label>
+        <input
+          type="text"
+          name="streetName"
+          id="streetName"
+          placeholder="Street Name"
+        />
+        <input
+          type="text"
+          name="streetName"
+          id="streetName"
+          placeholder="District Name"
+        />
+        <input
+          type="text"
+          name="streetName"
+          id="streetName"
+          placeholder="State Name"
+        />
+      </fieldset>
+
+      <!-- <label for="instaURL">Paste your instaURL</label>
+      <input type="url" name="" id="" required />
+       -->
+      <label>Select your gender:</label>
+
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="others" value="others" />
+      <label for="others">others</label>
+      <br /><br />
+
+      <label for="photo">Upload your photo</label>
+      <input type="file" name="photo" id="photo" accept=".jpeg,.png,.mp3" />
+
+      <br /><br />
+      <label for="vol">Change Volume</label>
+      <input type="range" name="vol" id="vol" value="0" step="10" />
+
+      <br /><br />
+      <label for="password">Enter Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        pattern="[A-Za-z0-9!@#$%^&*]"
+      />
+
+      <select name="" id="">
+        <option value="">----Select----</option>
+        <option value="">Ooption1</option>
+        <option value="">Ooption2</option>
+        <option value="">Ooption3</option>
+        <option value="">Ooption4</option>
+        <option value="">Ooption5</option>
+      </select>
+
+      <label for="country">Select Country</label>
+      <input type="text" id="country" list="countries" />
+      <datalist id="countries">
+        <option value="India"></option>
+        <option value="Berlin"></option>
+        <option value="Canada"></option>
+        <option value="Greenland"></option>
+        <option value="Finland"></option>
+        <option value="Iceland"></option>
+      </datalist>
+      <button type="">Submit</button>
+    </form>
+
+    <!-- <button>Dabba</button> -->
+  </body>
+</html>

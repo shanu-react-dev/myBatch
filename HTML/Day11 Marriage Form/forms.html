@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <div style="height: auto; width: 50%; background-color: lightsteelblue">
+        <h1 style="color: navy; background-color: lightblue">Biodata</h1>
+
+        <form style="padding: 50px">
+          <label for="fullName">Full Name:</label>
+          <input
+            type="text"
+            placeholder="Enter Full Name"
+            id="fullName"
+            name="fullName"
+            minlength="3"
+            maxlength="30"
+            required
+          />
+          <br />
+          <br />
+
+          <label for="">Age:</label>
+          <input
+            type="number"
+            placeholder="Enter age"
+            id="age"
+            name="age"
+            min="18"
+            max="30"
+            required
+          />
+
+          <br /><br />
+
+          <label for="">Gender: </label>
+
+          <input type="radio" name="gender" value="male" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="female" id="female" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" value="others" id="others" />
+          <label for="others">Others</label>
+
+          <br /><br />
+          <label for="skills">Skills:</label>
+
+          <input type="checkbox" name="skills" value="cooking" id="cooking" />
+          <label for="cooking">Cooking</label>
+          <input type="checkbox" name="skills" value="singing" id="singing" />
+          <label for="singing">Singing</label>
+
+          <br /><br />
+          <label for="job">Job:</label>
+          <select name="job" id="job">
+            <option value="Engineer">Engineer</option>
+
+            <option value="graphicDesigner">Graphic Desginer</option>
+            <option value="doctor" selected>Doctor</option>
+          </select>
+          <br /><br />
+          <label for="qualification">Highest Qualification</label>
+
+          <select name="qualification" id="qualification">
+            <option value="graduate">Graduate</option>
+            <option value="postGraduate">Post Graduate</option>
+            <option value="masters" selected>Masters</option>
+          </select>
+
+          <br /><br />
+          <label for="salary">Salary in LPA</label>
+          <input
+            type="number"
+            min="5"
+            name="salary"
+            placeholder="salary in LPA"
+            id="salary"
+          />
+          <br /><br />
+
+          <label for="zodiac">Zodiac Sign:</label>
+          <input type="radio" name="zodiac" id="aries" value="aries" />
+          <label for="aries">Aries</label>
+          <input type="radio" name="zodiac" id="taurus" value="taurus" />
+          <label for="taurus">Taurus</label>
+          <input type="radio" name="zodiac" id="gemini" value="gemini" />
+          <label for="gemini">gemini</label>
+
+          <br /><br />
+          <fieldset>
+            <legend>Address</legend>
+            <label for="houseNum">House Number</label>
+            <input type="number" name="houseNum" id="houseNum" required />
+
+            <br /><br />
+            <label for="street">Street Name</label>
+            <input type="text" name="streetName" id="street" required />
+
+            <br /><br />
+            <label for="pin">Pin Code</label>
+            <input
+              type="text"
+              id="pin"
+              placeholder="Zip Code"
+              pattern="[0-9]{6}"
+            />
+          </fieldset>
+
+          <br /><br />
+          <label for="dob">Select DOB:</label>
+          <input
+            type="date"
+            name="dob"
+            id="dob"
+            min="1996-01-01"
+            max="2008-01-01"
+          />
+          <br /><br />
+
+          <label for="contact">contact:</label>
+          <input
+            type="tel"
+            name="contact"
+            id="contact"
+            placeholder="+911234567890"
+            pattern="[0-9]{10}"
+          />
+          <br /><br />
+
+          <label for="insta">Insta URL</label>
+          <input
+            type="url"
+            name="insta"
+            id="insta"
+            placeholder="https://www.example.com"
+          />
+          <br /><br />
+          <label for="photo">Upload your photo:</label>
+          <input type="file" name="" id="" accept=".jpeg, .png" />
+
+          <br /><br />
+          <label for="email">Enter email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+          />
+
+          <br /><br />
+          <label for="divorced">is Divorced</label>
+          <input type="radio" name="divorced" id="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="divorced" id="no" />
+          <label for="no">No</label>
+
+          <br />
+          <br />
+          <label for="Feedback">Query/Feedback:</label>
+          <textarea name="Feedback" id="Feedback" rows="5" cols="30"></textarea>
+
+          <button>Submit</button>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
