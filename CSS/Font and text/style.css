@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&family=New+Rocker&display=swap");
+
+h1 {
+  /* color: lightseagreen;
+  text-align: right;
+  text-align: left;
+  text-align: end;
+  text-align: start;
+  text-align: center;
+  text-align: justify; */
+  /* text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 10px; */
+
+  /* text-decoration: underline dotted lightcoral 5px;
+  text-decoration: underline red double 2px; */
+
+  /* text-decoration-line: none;
+  text-decoration-line: line-through;
+  text-decoration-line: overline; */
+  /* text-decoration-line: underline;
+  text-decoration-color: orchid;
+  text-decoration-style: wavy;
+  text-decoration-style: dotted;
+  text-decoration-style: double;
+
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: none;
+
+  text-shadow: -10px -10px 10px red; */
+}
+p {
+  /* text-align: justify;
+  text-indent: 100px; */
+}
+
+a {
+  /* text-decoration: none; */
+}
+
+/* Font Properties */
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: cursive;
+  font-family: "New Rocker", system-ui;
+  font-family: "New Rocker", system-ui;
+  font-family: "Miltonian Tattoo", serif;
+  font-size: 19px;
+  font-weight: 1000;
+  /* font-style: italic; */
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+p {
+  /* word-spacing: 20px;
+  letter-spacing: 10px; */
+
+  line-height: 30px;
+}

@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  /* background-color: #dadae481; */
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 10px navy;
+  /* background-color: lightblue; */
+}
+
+.logo {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+  /* background-color: lightcoral; */
+}
+.logo > span {
+  color: navy;
+}
+
+nav {
+  height: 100%;
+  width: 40%;
+  /* background-color: lightgray; */
+}
+
+nav > ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: black;
+}
+
+ul > li {
+  transition: all 0.7s;
+}
+
+ul li:hover {
+  transform: translateY(-5px);
+  /* background-color: lightblue; */
+}
+ul a:hover {
+  color: navy;
+}
+
+.btnBox {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: lavender; */
+}
+
+.btnBox a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  border: 2px solid navy;
+  border-radius: 10px;
+  transition: all 0.7s;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.btnBox a:hover {
+  transform: translateY(-3px);
+  background-color: navy;
+  color: #ffff;
+  box-shadow: inset 0 0 5px #fff;
+}
+
+/* Homepage css starts here */
+#home {
+  height: 90vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#home > article,
+#home > section {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+#home > article > div {
+  width: 100%;
+}
+
+#home > section > div {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: lightblue;
+  background-image: url("https://i.pinimg.com/736x/92/6c/83/926c835fef3253b1175787ea80330179.jpg");
+  background-size: cover;
+}

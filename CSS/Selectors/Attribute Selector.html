@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      [type] {
+        color: lightseagreen;
+      }
+
+      [type="password"] {
+        color: blueviolet;
+      }
+
+      [type="text"] {
+        background-color: lightblue;
+      }
+
+      [type="text"]:hover {
+        background-color: lightseagreen;
+      }
+
+      h1:hover {
+        color: red;
+      }
+
+      button:hover {
+        background-color: lightcoral;
+      }
+
+      [type="password"]:focus {
+        background-color: crimson;
+      }
+
+      #contact:active {
+        background-color: lightgreen;
+      }
+
+      a {
+        color: darkseagreen;
+      }
+      a:active {
+        color: chocolate;
+      }
+      a:visited {
+        color: orange;
+      }
+
+      li:first-child {
+        color: blue;
+      }
+      li:last-child {
+        color: mediumseagreen;
+      }
+      li:nth-child(5) {
+        color: darkslateblue;
+      }
+
+      li:nth-child(even) {
+        color: deeppink;
+      }
+      li:nth-child(odd) {
+        background-color: #2c2c2c;
+        color: #ffff;
+        color: #f1cc26d0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form for Users</h1>
+    <form action="">
+      <label for="username">Enter Username</label>
+      <input
+        type="text"
+        name="username"
+        placeholder="Enter Username"
+        id="username"
+        required
+      />
+
+      <br /><br />
+      <label for="password">Enter Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Password"
+        required
+      />
+
+      <br /><br />
+      <label for="contact">Phone Number</label>
+      <input
+        type="tel"
+        name="contact"
+        id="contact"
+        placeholder="Enter contact"
+      />
+
+      <br /><br />
+      <button>Submit Form</button>
+    </form>
+
+    <p><a href="https://www.youtube.com">Click</a>To see the youtube</p>
+
+    <p><a href="https://www.myntra.com">Click </a>To purchase clothes</p>
+
+    <p><a href="https://www.zomato.com">Visit</a>Zomato to order Pizza</p>
+
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+      <li>item6</li>
+      <li>item7</li>
+      <li>item8</li>
+      <li>item9</li>
+      <li>item10</li>
+    </ul>
+  </body>
+</html>

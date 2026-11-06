@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h1 {
+        color: lightseagreen;
+      }
+      h1::first-letter {
+        color: navy;
+      }
+
+      p::first-line {
+        background-color: lightblue;
+        font-size: 20px;
+      }
+
+      li {
+        /* list-style-type: triangle; */
+      }
+      li::marker {
+        content: "🩵";
+      }
+
+      #item2::marker {
+        content: "@";
+      }
+      p::selection {
+        color: lightseagreen;
+        background-color: black;
+      }
+
+      li::after {
+        content: "!@#$%^";
+        color: red;
+        font-size: 9px;
+      }
+
+      li::before {
+        content: "Coffee Or Code";
+        color: lightpink;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello Pseudo Element Selector</h1>
+
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <ol>
+      <li>item1</li>
+      <li id="item2">item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+    </ol>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, illo
+      accusantium praesentium omnis et ipsum dolor velit laborum sequi
+      consectetur maxime veritatis odit molestias facilis inventore quaerat!
+      Sint cum ex amet. In unde iusto consequuntur? Explicabo, minus dolorum
+      sequi numquam neque suscipit reprehenderit debitis qui facere temporibus
+      rem laborum veritatis!
+    </p>
+  </body>
+</html>

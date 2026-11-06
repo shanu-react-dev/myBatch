@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      /* body {
+        background-color: lightblue, lightgreen;
+        background-image: linear-gradient(lightblue, lightgreen, red);
+        height: 100vh;
+        width: 100vw;
+        background-image: linear-gradient(to right, lightblue, lightgreen, red);
+        background-image: linear-gradient(to left, lightblue, lightgreen, red);
+        background-image: linear-gradient(to top right, coral, lightblue);
+        background-image: linear-gradient(
+          to bottom left,
+          lightblue,
+          lightseagreen,
+          green
+        );
+
+        background-image: linear-gradient(red 20%, yellow 80%);
+      } */
+
+      .box1 {
+        height: 200px;
+        width: 200px;
+        background-color: lightseagreen;
+        /* border-radius: 100px; */
+        border-radius: 50%;
+        background-image: linear-gradient(lightcoral, lightseagreen);
+      }
+      .box2 {
+        height: 300px;
+        width: 300px;
+        background-image: radial-gradient(lightblue, lightcoral);
+        border: 2px solid green;
+        background-image: radial-gradient(at top, lightblue, lightcoral);
+        background-image: radial-gradient(at top right, lightblue, lightcoral);
+        background-image: radial-gradient(
+          at bottom right,
+          lightblue,
+          lightcoral
+        );
+      }
+
+      .box3 {
+        height: 300px;
+        width: 300px;
+        border: 2px solid blue;
+        background-image: conic-gradient(
+          at 10% 80%,
+          lightpink,
+          lightseagreen,
+          blue
+        );
+      }
+
+      .box4 {
+        height: 50vh;
+        width: 80%;
+        border: 5px solid lightpink;
+        margin: 20px auto;
+        background-image: url("https://www.dreamworks.com/images/temp/explore/dragons/toothless/dragon-team.png");
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .myImage {
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+        border: 2px solid blue;
+        margin: 10px auto;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwVKTI12Ki0yMnufybbKv_DxGP9kg514bNR9yiEF_uOSZU9TUSi_3l9E&s=10");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: -20px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Background Properties in CSS</h1>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+    <div class="box4"></div>
+
+    <div class="myImage"></div>
+  </body>
+</html>

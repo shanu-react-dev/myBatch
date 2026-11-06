@@ -1,0 +1,27 @@
+/* #firstList {
+  color: blue;
+}
+
+#firstItem {
+  color: orange;
+} */
+
+#firstList #firstItem {
+  color: orange;
+}
+
+#firstList > li {
+  color: blue;
+}
+
+h1 + p {
+  color: lightsalmon;
+}
+
+h1 + h1 {
+  color: lightseagreen;
+}
+
+h1 ~ p {
+  color: blueviolet;
+}

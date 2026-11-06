@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      li:first-child {
+        color: aquamarine;
+        background-color: aliceblue;
+      }
+      li:last-child {
+        color: azure;
+        background-color: beige;
+      }
+
+      /* input {
+        color: red;
+      } */
+
+      input::placeholder {
+        color: lightgreen;
+      }
+
+      input {
+        color: darkblue;
+      }
+
+      input:valid {
+        background-color: lightgreen;
+      }
+
+      input:invalid {
+        background-color: rgba(255, 0, 0, 0.349);
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      <ol type="i">
+        <li>Item4</li>
+        <li>Item5</li>
+        <li>Item6</li>
+      </ol>
+    </ol>
+
+    <form action="">
+      <input
+        type="text"
+        placeholder="Write Something"
+        required
+        minlength="3"
+        maxlength="10"
+      />
+      <input
+        type="password"
+        placeholder="Write Password"
+        required
+        pattern="[A-Za-z0-9]{8,20}"
+      />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

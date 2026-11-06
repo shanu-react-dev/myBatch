@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  height: 200px;
+  border: 2px solid blue;
+  /* width: 400px; */
+}
+
+img {
+  border: 2px solid lightcoral;
+}
+
+a {
+  border: 2px solid green;
+  height: 200px;
+  width: 100%;
+  /* margin: 10px; */
+  margin: 50px;
+}
+textarea {
+  height: 200px;
+  display: inline;
+}
+
+span {
+  border: 2px solid red;
+  height: 200px;
+  /* display: block; */
+  display: inline-block;
+  width: 200px;
+}

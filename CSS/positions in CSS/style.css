@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 500px;
+  width: 100%;
+  border: 2px solid blue;
+  position: relative;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.second {
+  /* position: static;
+  left: 100px;
+  right: 100px;
+  top: 100px; */
+
+  /* position: relative; */
+  /* left: 100px;
+  bottom: 100px; */
+  /* bottom: 0;
+  top: 0; */
+  /* top: 500px;
+  left: 1100px; */
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid blue;
+}
+
+#homepage {
+  background-color: lightblue;
+}
+
+#aboutpage {
+  background-color: lightgreen;
+}
+
+#contactpage {
+  background-color: lightgray;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  background-color: lightcoral;
+}
+
+.third {
+  position: fixed;
+}
