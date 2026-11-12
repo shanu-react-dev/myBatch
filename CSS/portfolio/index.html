@@ -20,6 +20,13 @@
       href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css"
       rel="stylesheet"
     />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/3.0.0/typed.umd.js"
+      integrity="sha512-TBofwZKS1Ka3QVu5LEUNjPKs32xK1PxzBIeaXWeGE+zCk2KDwfHLXI7234Tu+UKcHdCoQUzF5Cf4ihFtwdvJlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <header>
@@ -49,7 +56,7 @@
         </div>
 
         <div class="profession">
-          <h1>I'm <span>Frontend Developer</span></h1>
+          <h1>I'm <br /><span id="profession"></span></h1>
         </div>
 
         <div class="intro">
@@ -74,13 +81,21 @@
       <section>
         <div></div>
       </section>
-
-      <img
-        width="50"
-        height="50"
-        src="https://img.icons8.com/ios/50/gmail--v1.png"
-        alt="gmail--v1"
-      />
     </section>
+
+    <script>
+      var typed2 = new Typed("#profession", {
+        strings: [
+          "Software Engineer",
+          "AWS Developer",
+          "System Designer",
+          "Backend Engineer",
+        ],
+        typeSpeed: 60,
+        backSpeed: 40,
+        fadeOut: false,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
