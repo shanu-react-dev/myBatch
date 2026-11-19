@@ -1,3 +1,5 @@
+//! Operators
+//? 1 Arithmetic Operators
 // let num1 = 10;
 // let num2 = 20;
 
@@ -51,5 +53,36 @@
 // console.log(Boolean(undefined));
 // console.log(Boolean(NaN));
 
-console.log(typeof null);
-console.log(typeof typeof null);
+// console.log(typeof null);
+// console.log(typeof typeof null);
+
+//! subtraction
+let a = 10;
+let b = "10";
+console.log(a - b); // 10 - 10 = 0
+b = "10a";
+console.log(a - b);
+let num1 = null;
+let num2 = 10;
+console.log(num2 - num1); // 10
+console.log(Number(null));
+
+//! multiplication
+let num3 = 10;
+let num4 = 5;
+console.log(num3 * num4); //50
+
+//! modulus
+console.log(num4 % num3);
+//! division
+console.log(num4 / num3);
+let num5 = 0;
+let num6 = 9;
+console.log(num5 / num6);
+console.log(num6 / num5);
+console.log(typeof (num6 / num5));
+
+//! Exponential
+let num7 = 9;
+let num8 = 2;
+console.log(num7 ** num8);
