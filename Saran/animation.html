@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        padding: 14px 30px;
+        background-color: lightpink;
+        border: 2px solid pink;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        transition: all 0.7s;
+      }
+      button::after {
+        content: "";
+        height: 100%;
+        width: 0%;
+        background-color: lightcoral;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        transition: width 1s;
+        z-index: -1;
+      }
+      button:hover::after {
+        width: 100%;
+        color: #fff;
+      }
+      button:hover {
+        transform: translateY(-5px);
+      }
+      button:hover > span {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <button><span>Submit</span></button>
+  </body>
+</html>

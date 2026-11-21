@@ -1,6 +1,6 @@
 //! Assignment Operator
-let a = 10;
-let b = 5;
+// let a = 10;
+// let b = 5;
 
 // a = a + b;
 
@@ -38,11 +38,11 @@ let b = 5;
 
 // b %= a;
 // console.log(b);
-a = 7;
-b = 8;
+// a = 7;
+// b = 8;
 // a *= b - 5;
-let expr = a + b - (b - a) * 3; //
-console.log(expr);
+// let expr = a + b - (b - a) * 3; //
+// console.log(expr);
 
-expr = 5 * b - (2 - a + b) * 3; // 5 * 8 - (2- 7 + 8) * 3 => 40 -
-console.log(expr);
+// expr = 5 * b - (2 - a + b) * 3; // 5 * 8 - (2- 7 + 8) * 3 => 40 -
+// console.log(expr);
